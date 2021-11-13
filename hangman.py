@@ -16,7 +16,7 @@ def hangman():
 
 # getting the user input
 while len(word letters) > 0:
-    # Number of letters used
+    # Number of total letters used
     # ' '.join({'a', 'b', 'cd'}) --> 'a b cd'
     print('You have used these letters: ', ' '.join(used_letters))
 
